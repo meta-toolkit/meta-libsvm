@@ -1,6 +1,6 @@
 CXX ?= g++
 CC ?= gcc
-CFLAGS = -Wall -Wconversion -O3 -fPIC
+CFLAGS = -O3 -fPIC
 LIBS = blas/blas.a
 SHVER = 1
 OS = $(shell uname)
